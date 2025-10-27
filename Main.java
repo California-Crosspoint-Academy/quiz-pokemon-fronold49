@@ -8,11 +8,11 @@ public class Main {
         Pokemon p5 = new Pokemon("Squirtle", 100, "Tackle", "Tail Whip", "Bubble", "Water Gun");
         Pokemon p6 = new Pokemon("Venusaur", 100, "Growl", "Leech Seed", "Tackle", "Vine Whip");
 
-        p1.attack1();
-        p2.attack1();
-        p3.attack1();
-        p4.attack1();
-        p5.attack1();
-        p6.attack1();
+        p1.printPokemon();
+        p2.printPokemon();
+        p3.printPokemon();
+        p4.printPokemon();
+        p5.printPokemon();
+        p6.printPokemon();
     }
 }

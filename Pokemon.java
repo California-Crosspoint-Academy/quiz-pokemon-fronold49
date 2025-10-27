@@ -21,19 +21,12 @@ public class Pokemon {
         this.attack4 = attack4;
     }
 
-    void attack1() {
-        System.out.println(name + " attacked with " + attack1);
-    };
-
-    void attack2() {
-        System.out.println(name + " attacked with " + attack2);
-    };
-
-    void attack3() {
-        System.out.println(name + " attacked with " + attack3);
-    };
-
-    void attack4() {
-        System.out.println(name + " attacked with " + attack4);
+    void printPokemon() {
+        System.out.println(name + " (Level: " + level + ")");
+        System.out.println("Attack 1: " + attack1);
+        System.out.println("Attack 2: " + attack2);
+        System.out.println("Attack 3: " + attack3);
+        System.out.println("Attack 4: " + attack4);
+        System.out.println();
     };
 }
